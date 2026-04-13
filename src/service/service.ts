@@ -23,7 +23,7 @@ export const atualizar = async(url:string,dados:object,setDados:Function)=>{
 
 export const deletar = async(url:string,dados:object)=>{
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const resposta = await api.delete(url,dados)
+  await api.delete(url,dados)
     
 }
 
