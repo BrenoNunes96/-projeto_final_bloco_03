@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ListarCardCategoria from './components/categoria/listarCardCategoria/listarCardCategoria'
 import FormCardCategoria from './components/categoria/formCardCategoria/FormCardCategoria'
 import DeletarCategoria from './components/categoria/deletarCategoria/deletarCategoria'
+import Navbar from './components/navbar'
+import Footer from './components/footer'
 
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
   return (
     <>
   <BrowserRouter>
+     <Navbar/>
   <Routes>
+
     <Route path='/' element={<Home/>}/>
     <Route path='/categorias' element={<ListarCardCategoria/>}/>
     <Route path='/editarCategoria/:id'element={<FormCardCategoria/>} />
@@ -26,7 +30,9 @@ function App() {
 
 
 
+
   </Routes>
+  <Footer/>
   </BrowserRouter>
 
 
