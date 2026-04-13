@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { buscar, deletar } from '../../../service/service'
 import { useNavigate, useParams } from 'react-router-dom'
 import type { categoria } from '../../../model/categoria'
