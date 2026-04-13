@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState, type ChangeEvent } from 'react'
 import { Link } from 'react-router-dom'
+import type { categoria } from '../model/categoria'
 
 export default function Navbar() {
+
+
+
+
     
   return (
   <nav className="bg-[#302c77] text-white px-6 py-3 flex items-center justify-between w-full font-sans">
@@ -20,7 +25,7 @@ export default function Navbar() {
       <input
         type="text"
         placeholder="Procurar"
-        className="w-full px-4 py-1.5 text-gray-600 bg-transparent outline-none text-sm placeholder-gray-400"
+        className="w-full px-4 py-1.5 text-gray-600 bg-transparent outline-none text-sm placeholder-gray-400 "
       />
       <button className="bg-[#2563eb] hover:bg-blue-700 text-white p-2 rounded-md transition-colors flex items-center justify-center">
 
