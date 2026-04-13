@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     
@@ -7,10 +8,11 @@ export default function Navbar() {
 
   <div className="flex items-center gap-2 cursor-pointer">
 
-    <svg className="w-10 h-10 text-[#ff3a3a]" viewBox="0 0 24 24" fill="currentColor">
+   <Link to='/'> <svg className="w-10 h-10 text-[#ff3a3a]" viewBox="0 0 24 24" fill="currentColor">
       <path d="M19 10h-5V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v5H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h5v5a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-5h5a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1z" />
-    </svg>
+    </svg></Link>
     <span className="text-xl font-bold tracking-wide">FARMÁCIA</span>
+    
   </div>
 
   <div className="flex-1 max-w-3xl mx-8">

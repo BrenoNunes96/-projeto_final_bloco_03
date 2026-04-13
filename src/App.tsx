@@ -2,14 +2,23 @@ import { useState } from 'react'
 
 import './App.css'
 import Home from './pages/home/home'
-import Footer from './components/footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 function App() {
 
   return (
     <>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home/>}/>
 
-<Home/>
+
+
+
+    
+  </Routes>
+  </BrowserRouter>
 
 
       </> 
