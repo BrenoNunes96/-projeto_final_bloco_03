@@ -35,8 +35,8 @@ export default function Navbar() {
     
   
     <div className="hidden md:flex items-center gap-6 text-sm font-normal">
-      <a href="#" className="hover:text-gray-300 transition-colors">Categorias</a>
-      <a href="#" className="hover:text-gray-300 transition-colors">Cadastrar Categoria</a>
+  <Link to='/categorias' > Categorias</Link>
+    <Link to='/CadastrarCategoria' > Cadastrar Categorias</Link>
     </div>
 
     <div className="flex items-center gap-4">
