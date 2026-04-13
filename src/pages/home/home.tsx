@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-
-
+import imagemhome from "src/assets/imagemhome.png"
 
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
   </div>
 
 
-  <img src="src/assets/imagemhome.png" alt="Farmacêutica" className="w-1/3" />
+  <img src={imagemhome} alt="Farmacêutica" className="w-1/3" />
 </div>
 
     </div>
