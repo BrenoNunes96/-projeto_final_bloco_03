@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import type { categoria } from '../model/categoria'
+
 
 export default function Navbar() {
 

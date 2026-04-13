@@ -1,7 +1,7 @@
-import React, { useEffect, useState, type ChangeEvent, type SyntheticEvent } from 'react'
+import  { useEffect, useState, type ChangeEvent, type SyntheticEvent } from 'react'
 import { atualizar, buscar, cadastrar } from '../../../service/service'
 import type { categoria } from '../../../model/categoria'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { ClipLoader } from 'react-spinners'
 
 
