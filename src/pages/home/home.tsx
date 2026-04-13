@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imagemhome from "src/assets/imagemhome.png"
+import imagemhome from "../../assets/imagemhome.png";
 
 
 export default function Home() {

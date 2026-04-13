@@ -1,6 +1,6 @@
-import facebookIcon from "../../assets/icons8-facebook-novo-50.png";
-import instaIcon from "../../assets/icons8-insta-50.png";
-import linkedinIcon from "../../assets/icons8-linkedin-50.png";
+import facebookIcon from "../assets/icons8-facebook-novo-50.png";
+import instaIcon from "../assets/icons8-insta-50.png";
+import linkedinIcon from "../assets/icons8-linkedin-50.png";
 
 export default function Footer() {
   return (
